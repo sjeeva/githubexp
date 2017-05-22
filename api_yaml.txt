@@ -1,0 +1,13 @@
+!!python/unicode 'environment':
+  !!python/unicode 'description': !!python/unicode 'this is a test run'
+  !!python/unicode 'labels':
+  - {!!python/unicode 'label1': !!python/unicode 'value1', !!python/unicode 'label2': !!python/unicode 'value2'}
+  !!python/unicode 'name': !!python/unicode 'test-env'
+!!python/unicode 'nodes':
+  !!python/unicode 'donode': {!!python/unicode 'cloud': !!python/unicode 'do', !!python/unicode 'count': 1,
+    !!python/unicode 'image': !!python/unicode 'ubuntu-16-04-x64', !!python/unicode 'type': !!python/unicode '1gb'}
+  !!python/unicode 'ec2node': {!!python/unicode 'cloud': !!python/unicode 'ec2', !!python/unicode 'count': 1,
+    !!python/unicode 'image': !!python/unicode 'ami-5e63d13e', !!python/unicode 'type': !!python/unicode 't2.micro'}
+  !!python/unicode 'spotnode': {!!python/unicode 'bid': !!python/unicode '0.012',
+    !!python/unicode 'cloud': !!python/unicode 'aws_spot', !!python/unicode 'count': 2,
+    !!python/unicode 'image': !!python/unicode 'ami-5e63d13e', !!python/unicode 'type': !!python/unicode 'm3.medium'}
