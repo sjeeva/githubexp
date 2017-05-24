@@ -1,0 +1,33 @@
+{
+  "environment": {
+    "labels": [
+      {
+        "label1": "value1", 
+        "label2": "value2"
+      }
+    ], 
+    "name": "test-env-15335", 
+    "description": "this is a test run"
+  }, 
+  "nodes": {
+    "spotnode": {
+      "count": 2, 
+      "image": "ami-5e63d13e", 
+      "type": "m3.medium", 
+      "bid": "0.012", 
+      "cloud": "aws_spot"
+    }, 
+    "donode": {
+      "count": 1, 
+      "image": "ubuntu-16-04-x64", 
+      "type": "1gb", 
+      "cloud": "do"
+    }, 
+    "ec2node": {
+      "count": 1, 
+      "image": "ami-5e63d13e", 
+      "type": "t2.micro", 
+      "cloud": "ec2"
+    }
+  }
+}
