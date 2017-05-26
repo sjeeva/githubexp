@@ -1,0 +1,19 @@
+{
+  "environment": {
+    "labels": [
+      {
+        "ad": "df"
+      }
+    ], 
+    "name": "mynewtest", 
+    "description": "abc"
+  }, 
+  "nodes": {
+    "node": {
+      "count": "1", 
+      "image": "ami-5e63d13e", 
+      "type": "t2.micro", 
+      "cloud": "ec2"
+    }
+  }
+}
