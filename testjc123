@@ -1,0 +1,20 @@
+{
+  "environment": {
+    "labels": [
+      {
+        "k": "v"
+      }
+    ], 
+    "name": "testjc123", 
+    "description": "test"
+  }, 
+  "nodes": {
+    "env": {
+      "count": "1", 
+      "image": "ami-5e63d13e", 
+      "type": "t2.micro", 
+      "bid": "1", 
+      "cloud": "ec2"
+    }
+  }
+}
