@@ -1,0 +1,20 @@
+{
+  "environment": {
+    "labels": [
+      {
+        "key4": "val4"
+      }
+    ], 
+    "name": "test4", 
+    "description": "desc"
+  }, 
+  "nodes": {
+    "Node4": {
+      "count": "1", 
+      "image": "ami-5e63d13e", 
+      "type": "t2.micro", 
+      "bid": "1", 
+      "cloud": "ec2"
+    }
+  }
+}
