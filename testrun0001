@@ -1,0 +1,20 @@
+{
+  "environment": {
+    "labels": [
+      {
+        "Key": "Value"
+      }
+    ], 
+    "name": "testrun0001", 
+    "description": "This is a test run to demo the UI functionality and the bug associated with that"
+  }, 
+  "nodes": {
+    "envnode01": {
+      "count": "1", 
+      "image": "ami-5e63d13e", 
+      "type": "t2.micro", 
+      "bid": "", 
+      "cloud": "ec2"
+    }
+  }
+}
