@@ -1,0 +1,19 @@
+{
+  "environment": {
+    "labels": [
+      {
+        "key1": "val1"
+      }
+    ], 
+    "name": "test1", 
+    "description": "tesdec"
+  }, 
+  "nodes": {
+    "Node5": {
+      "count": "1", 
+      "image": "ami-5e63d13e", 
+      "type": "t2.micro", 
+      "cloud": "ec2"
+    }
+  }
+}
